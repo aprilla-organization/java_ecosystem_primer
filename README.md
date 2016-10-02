@@ -4,6 +4,8 @@ Maybe you’ve read a blog post with some Java code, but it felt more like an ac
 #### How Does Java Work?
 You may have heard write once run anywhere, here’s how that works. Write your code in a .java file, you run a tool called a compiler which outputs this file to Java bytecode, a .class file. Your Mac or Windows laptop has some software called the Java Virtual Machine (or JVM) and it can read bytecode and run your program. Lots of devices have a JVM and can run your code, but you only to write it once.
 
+![](https://github.com/aprilla/java_ecosystem_primer/blob/master/resources/how_java_works.png)
+
 #### Some Acronyms
 * JVM: can read Java Bytecode
 * JRE: a package containing the JVM + the Java Class Library. It lets you run your application because it has all the basic Java libraries.
@@ -46,7 +48,7 @@ Java isn’t the first tool I’d necessarily use to create a complete web appli
 #### Web Services
 If you’re writing a set of microservices or Rest APIs, popular options are
 * Spring Boot
-* Dropwizard 
+* Dropwizard
 
 #### Other Languages on the JVM
 Another cool thing about the JVM is that any language that can create bytecode can be run on the JVM.
